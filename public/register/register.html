@@ -1,0 +1,58 @@
+<div class="row">
+	<div class="container">
+		<form class="form-horizontal" action='' method="POST">
+		  <fieldset>
+		    <div id="legend">
+		      <legend class="">Register</legend>
+		    </div>
+		    <div class="control-group">
+		      <!-- Username -->
+		      <label class="control-label"  for="username">Username</label>
+		      <div class="controls">
+		        <input ng-model="user.username" type="text" id="username" name="username" placeholder="" class="input-xlarge">
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- E-mail -->
+		      <label class="control-label" for="email">E-mail</label>
+		      <div class="controls">
+		        <input ng-model="user.email" type="text" id="email" name="email" placeholder="" class="input-xlarge">
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- Password-->
+		      <label class="control-label" for="password">Password</label>
+		      <div class="controls">
+		        <input ng-model="user.password" type="password" id="password" name="password" placeholder="" class="input-xlarge">
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- Password -->
+		      <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+		      <div class="controls">
+		        <input ng-model="user.repassword" type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- Button -->
+		      <div class="controls">
+		      	<br>
+		        <button class="btn btn-success" ng-click="register()" type="button">Register</button>
+		      </div>
+		    </div>
+		  </fieldset>
+		</form>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div class="col-md-12">
+			<p class="info"> {{message}} </p>
+		</div>
+	</div>
+</div>

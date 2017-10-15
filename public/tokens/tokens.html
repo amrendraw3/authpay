@@ -1,0 +1,22 @@
+<div class="row">
+	<div class="container">
+		<table class="table table-striped">
+		  <thead>
+		    <tr>
+		      <th>Unique ID</th>
+		      <th>Token</th>
+		      <th>Used</th>
+		      <th>Created At</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr ng-repeat="token in tokens">
+		      <td>{{token._id}}</td>
+		      <td>{{token.token}}</td>
+		      <td>{{token.isUsed}}</td>
+		      <td>{{token.createdAt}}</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+</div>

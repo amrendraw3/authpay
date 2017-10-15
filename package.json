@@ -1,0 +1,20 @@
+{
+  "name": "mean-skeleton",
+  "version": "0.4.1",
+  "description": "Skeleton for an application using the MEAN stack.",
+  "main": "server.js",
+  "author": "Alfred",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "request": "latest",
+    "uuid": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfredababio/mean-skeleton.git"
+  }
+}
